@@ -1,0 +1,29 @@
+{
+  "name": "natours",
+  "version": "1.0.0",
+  "description": "Landing page for natours",
+  "main": "gulpfile.js",
+  "dependencies": {
+    "browser-sync": "^2.26.7",
+    "gulp": "^4.0.2",
+    "gulp-watch": "^5.0.1",
+    "live-server": "^1.2.1",
+    "watch": "^1.0.2"
+  },
+  "devDependencies": {
+    "node-sass": "^4.12.0"
+  },
+  "scripts": {
+    "compile:sass": "node-sass sass/main.scss app/css/style.css -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BrianDyl/natours.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BrianDyl/natours/issues"
+  },
+  "homepage": "https://github.com/BrianDyl/natours#readme"
+}

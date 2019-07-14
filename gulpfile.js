@@ -18,7 +18,7 @@ gulp.task('watch', function(){
        browserSync.reload();
     });
 
-    watch('./app/style.css', function(){
+    watch('./app/css/style.css', function(){
         browserSync.reload();
      });
   
