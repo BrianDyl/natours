@@ -9,7 +9,11 @@
     opacity: 0;
     visibility: hidden;
     transition: all .3s;
+   
 
+    @supports( -webkit-backdrop-filter: blur(10px)){
+        background-color: rgba($color-black, .8);
+    }
     &__content {
        @include absCenter;
    
@@ -55,7 +59,7 @@
         column-gap: 4rem; //1em default = 14px = font-size
         column-rule: 1px solid $color-grey-light-2;
 
-        -webkit-hyphens: auto;
+       // -webkit-hyphens: auto; hypens not working
     }
    //Open states
     &:target {
